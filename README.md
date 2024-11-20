@@ -62,22 +62,40 @@ Clone the repository into your IDE (VS Code)
 Here's the typical structure of each project in this repository:
 
 bash
+
+
 Copy code
+
 full-stack-mern-projects/
+
 ├── client/                # Front-end React application
+
 │   ├── public/            # Public assets (index.html, etc.)
+
 │   ├── src/               # React components, Redux store (if applicable), API calls, etc.
+
 │   ├── App.js             # Main component
+
 │   └── index.js           # Entry point for React app
+
 ├── server/                # Back-end Node.js and Express API
+
 │   ├── models/            # Mongoose models (User, Post, etc.)
+
 │   ├── routes/            # API routes (auth.js, posts.js, etc.)
+
 │   ├── controllers/       # Request handlers
+
 │   ├── config/            # Database connection, JWT, etc.
+
 │   ├── server.js          # Server entry point
+
 │   └── .env               # Environment variables
+
 ├── README.md              # This file
+
 └── package.json           # Project dependencies and scripts
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -94,7 +112,10 @@ Share your suggestions and ideas.
 If you have any questions or feedback, feel free to reach out to me via:
 
 Email: lalitdevda3449@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/lalit-devda-93aa20301/
+
 GitHub: https://github.com/LalitDevdax/
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------
