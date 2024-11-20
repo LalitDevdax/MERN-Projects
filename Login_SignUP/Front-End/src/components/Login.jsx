@@ -10,10 +10,10 @@ function Login() {
   const [notification, setNotification] = useState({
     message: "",
     type: "",
-    visible: false, 
+    visible: false,
   });
 
-  // Handle form submission
+  // Handle form submission 0n submit
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
