@@ -10,7 +10,7 @@ function Login() {
   const [notification, setNotification] = useState({
     message: "",
     type: "",
-    visible: false,
+    visible: false, 
   });
 
   // Handle form submission
