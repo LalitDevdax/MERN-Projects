@@ -25,11 +25,13 @@ Contact
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 📜 About
+
 This repository contains a collection of Full-Stack MERN applications that I've developed to demonstrate my proficiency in web development. The applications are designed to be clean, responsive, and optimized for performance. Each project is self-contained with a client-side React app, a server-side Node.js/Express app, and a MongoDB database for data storage.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 ✨ Features
+
 User Authentication: Secure login, registration, and session management using JWT (JSON Web Tokens).
 
 CRUD Operations: Create, Read, Update, and Delete data with an intuitive UI and API integration.
@@ -50,6 +52,7 @@ Security Best Practices: Protected routes, password hashing, and secure API call
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Tech Stack
+
 MongoDB - NoSQL database for flexible data storage.
 
 Express.js - Web framework for Node.js for building RESTful APIs.
@@ -66,6 +69,7 @@ Axios - Promise-based HTTP client for making API requests.
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 🔧 Installation
+
 To get started with any of the projects in this repository, follow the steps below:
 
 Clone the repository into your IDE (VS Code)
@@ -73,6 +77,7 @@ Clone the repository into your IDE (VS Code)
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 🧩 Project Structure
+
 Here's the typical structure of each project in this repository:
 
 bash
@@ -114,6 +119,7 @@ full-stack-mern-projects/
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 💡 Contributions
+
 Contributions are welcome! If you'd like to improve this repository, feel free to:
 
 Open an issue to report bugs or request new features.
@@ -123,6 +129,7 @@ Share your suggestions and ideas.
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 📬 Contact
+
 If you have any questions or feedback, feel free to reach out to me via:
 
 Email: lalitdevda3449@gmail.com
