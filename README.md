@@ -31,23 +31,37 @@ This repository contains a collection of Full-Stack MERN applications that I've 
 
 ✨ Features
 User Authentication: Secure login, registration, and session management using JWT (JSON Web Tokens).
+
 CRUD Operations: Create, Read, Update, and Delete data with an intuitive UI and API integration.
+
 Responsive Design: Fully responsive front-end, optimized for both desktop and mobile views.
+
 API Integration: RESTful API design to handle client-server communication.
+
 State Management: Utilization of React's context API or Redux for state management (depending on the project).
+
 Database Integration: MongoDB for storing user data, posts, and more.
+
 Real-Time Updates: Using WebSockets (optional, based on the project) to display real-time data changes.
+
 Security Best Practices: Protected routes, password hashing, and secure API calls.
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 🛠️ Tech Stack
 MongoDB - NoSQL database for flexible data storage.
+
 Express.js - Web framework for Node.js for building RESTful APIs.
+
 React.js - JavaScript library for building user interfaces.
+
 Node.js - JavaScript runtime for server-side programming.
+
 Mongoose - ODM (Object Data Modeling) library for MongoDB and Node.js.
+
 Axios - Promise-based HTTP client for making API requests.
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
