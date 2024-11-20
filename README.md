@@ -7,12 +7,19 @@ Welcome to my collection of Full-Stack MERN (MongoDB, Express.js, React, Node.js
 🚀 Table of Contents :
 
 About
+
 Features
+
 Tech Stack
+
 Installation
+
 Usage
+
 Project Structure
+
 Contributions
+
 Contact
 
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -88,6 +95,6 @@ If you have any questions or feedback, feel free to reach out to me via:
 
 Email: lalitdevda3449@gmail.com
 LinkedIn: https://www.linkedin.com/in/lalit-devda-93aa20301/
-GitHub: github.com/LalitDevdax
+GitHub: https://github.com/LalitDevdax/
 
 -----------------------------------------------------------------------------------------------------------------------------------------
