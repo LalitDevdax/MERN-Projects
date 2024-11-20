@@ -1,0 +1,61 @@
+/* Notification.css */
+.notification {
+  position: fixed;
+  bottom: 20px;
+  right: -350px; /* Initially off-screen */
+  padding: 1rem;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+  z-index: 1000;
+  transition: right 0.5s ease; /* Slide-in effect */
+}
+
+.notification.show {
+  right: 20px; /* Slide into view */
+}
+
+.notification.success {
+  background-color: #4caf50; /* Green for success */
+}
+
+.notification.warn {
+  background-color: #ff9800; /* Orange for warning */
+}
+
+.notification.error {
+  background-color: #f44336; /* Red for error */
+}
+
+.notification .close-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+/* Sliding bar indicator */
+.notification .progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.6); /* Lighter color for the bar */
+  width: 100%;
+  animation: slideProgress 3s linear forwards;
+}
+
+@keyframes slideProgress {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}

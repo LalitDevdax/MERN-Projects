@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e0f7fa;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Styling */
+.form {
+    color: #aaa;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    text-align: center;
+    width: 400px;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #00796b;
+    text-align: center;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+/* Input Field */
+input {
+    width: 100%;
+    padding: 1rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: transparent;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #00796b;
+    padding-top: 1rem; /* Reset padding-top to ensure placeholder is not cut off */
+    outline: none;
+    border-width: 2pxpx 2px 2px 2px;
+}
+
+/* Label Styling */
+label {
+    position: absolute;
+    left: 0.8rem;
+    top: 1rem;
+    font-size: 1rem;
+    color: #aaa;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+
+/* When input is focused or has content */
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: -0.5rem;
+    font-size: 0.8rem;
+    color: #00796b;
+    background-color: #fff;
+    width: 4rem;
+}
+
+input:not(:focus):not(:placeholder-shown) + label {
+    top: -0.5rem;
+    font-size: 0.8rem;
+    color: #aaa; /* Grey when input is not focused */
+}
+
+
+/* When input is not empty, adjust padding-top to ensure enough space for floating label */
+input:not(:placeholder-shown) {
+    padding-top: 1rem;
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #00796b;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #004d40;
+}
+
+/* Switch Form Styling */
+.switch-form {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.switch-form a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+.switch-form a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .form-container {
+        padding: 1rem;
+        width: 100%;
+    }
+}
