@@ -58,8 +58,8 @@ const ProfilePage = () => {
       {/* Profile container */}
       <div className="h-screen flex justify-center items-center relative z-20">
         <div
-          className="w-full sm:w-[90%] lg:w-[80%] mx-auto p-4 sm:p-6 lg:p-8 space-y-6 bg-zinc-900 rounded-xl shadow-lg relative 
-            mt-8 lg:mt-16"
+          className="w-full max-w-[95%] sm:max-w-[90%] lg:max-w-[80%] mx-4 sm:mx-auto p-4 sm:p-6 lg:p-8 space-y-6 bg-zinc-900 rounded-xl shadow-lg relative 
+    mt-8 lg:mt-16"
         >
           {/* Close button */}
           <button
@@ -145,6 +145,15 @@ const ProfilePage = () => {
           </div>
         </div>
       </div>
+      <style>
+        {`
+          /* Apply opacity and disable interaction on navbar */
+          .navbar {
+            opacity: 0.5;
+            pointer-events: none;
+          }
+        `}
+      </style>
     </div>
   );
 };
